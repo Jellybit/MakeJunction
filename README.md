@@ -67,6 +67,16 @@ This tab is for creating multiple junctions from a list and for seeing a history
     * If you encounter errors about "insufficient privilege," you might need to run the script **as an Administrator**.
     * Alternatively, on Windows 10/11, enabling **Developer Mode** in your Windows Settings usually allows you to create junctions without running as an administrator, if permissions are an issue.
 
+## Compile Standalone
+
+I took these steps to compile a standalone version that doesn't have the console window. Open Powershell and type the following commands:
+
+* Install-Module ps2exe
+* Set-ExecutionPolicy RemoteSigned -Scope Process -Force
+* ps2exe "MakeJunctions.ps1" "MakeJunctions.exe" -noConsole
+
+This installs ps2exe, which compiles powershell scripts. The execution policy command changes permissions to be able to compile this executable, but the permissions will revert to normal after you close this window.
+
 ---
 
 Hope this tool is useful to someone other than me.
