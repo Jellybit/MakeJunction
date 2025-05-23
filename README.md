@@ -1,6 +1,8 @@
 # MakeJunction
 A Powershell script with GUI to simplify and speed up creating junction folders.
 
+![image](https://github.com/user-attachments/assets/f1ae8519-8b1a-4340-bdc4-429296b54868)
+
 I use a lot of linked folders so that I can store certain files on fast SSDs, and access them in different projects. This is done using a Windows feature called **Directory Junctions**. Junctions basically make Windows see a folder anywhere you want it to be seen, like a shortcut, but it pretends to actually be that folder. For a while, I was using Windows' built-in "mklink" command, but typing that command by hand took a while and got annoying. So I went and made this GUI to handle a lot of use cases, and even batch a ton of them at once.
 
 ## Features
@@ -45,6 +47,8 @@ This tab is for when you want an *existing folder path* to become a link to your
 * Click **"Replace Folder with Junction"**.
 
 ### Tab 3: From Text
+
+![image](https://github.com/user-attachments/assets/7fd6d223-4fd4-4656-ab98-53749f16e4a7)
 
 This tab is for creating multiple junctions from a list and for seeing a history of junctions created in the current session.
 
