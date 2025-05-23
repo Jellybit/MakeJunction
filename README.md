@@ -1,7 +1,7 @@
 # MakeJunction
-A GUI to simplify and speed up creating junction folders.
+A Powershell script with GUI to simplify and speed up creating junction folders.
 
-I use a lot of linked folders so that I can store certain files on fast SSDs, and access them in different projects. This is done using a Windows feature called **Directory Junctions**. Junctions basically make Windows see a folder anywhere you want it to be seen. For a while, I was using Windows' built-in "mklink" command, but typing that command by hand took a while and got annoying. So I went and made this GUI to handle a lot of use cases, and even batch a ton of them at once.
+I use a lot of linked folders so that I can store certain files on fast SSDs, and access them in different projects. This is done using a Windows feature called **Directory Junctions**. Junctions basically make Windows see a folder anywhere you want it to be seen, like a shortcut, but it pretends to actually be that folder. For a while, I was using Windows' built-in "mklink" command, but typing that command by hand took a while and got annoying. So I went and made this GUI to handle a lot of use cases, and even batch a ton of them at once.
 
 ## Features
 
